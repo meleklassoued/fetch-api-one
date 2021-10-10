@@ -10,7 +10,7 @@ function App() {
     Axios.get("https://jsonplaceholder.typicode.com/todos/1")
       .then((response) => {
         console.log(response);
-        setdata(`ekteb esmek ya stak o bara nikomek ${response.data.title}`);
+        setdata(`thank you ${response.data.title}`);
       })
       .catch((err) => console.log(err));
   };
